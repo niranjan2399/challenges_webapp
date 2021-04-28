@@ -1,0 +1,75 @@
+.container1,
+.container2,
+.container3,
+.container4,
+.container-5 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-container-1,
+.container2button,
+.spc_image,
+.button_container,
+.flex-box-row1,
+.flex-box-row3,
+.flex-box-row2 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+  /* display: flex; */
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.img_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img_container img {
+  box-shadow: 5px 5px 10px 10px grey;
+  margin: 10px;
+}
+
+.spc_image img {
+  height: 150px;
+  width: 150px;
+  background: transparent;
+}
+
+.spc_image img:hover {
+  box-shadow: 10px 10px 50px rgba(12, 12, 199, 0.699);
+}
+
+.flex-box-row3 tr,
+.flex-box-row3 td,
+.flex-box-row3 th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.flex-box-row1, .flex-box-row2 {
+  background: url("https://media.istockphoto.com/photos/green-poker-table-background-picture-id643199720?k=6&m=643199720&s=170667a&w=0&h=a6gzxiCk7LHz-l1oDNsXfCcUQXkuIfdw9AV4KFroYqg=") center;
+  color: white;
+}
+
+.flex-box-row1 img{
+  height: 25%;
+}
+
+.flex-box-row1 div{
+  height: 350px;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  border: 1px solid black;
+}
